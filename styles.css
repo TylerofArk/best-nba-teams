@@ -19,3 +19,16 @@ li {
 p {
     text-align: justify;
 }
+
+footer {
+    text-align: center;
+}
+
+div img {
+    align-content: stretch;
+}
+
+img {
+    display: inline-block;
+    vertical-align: top;
+}
