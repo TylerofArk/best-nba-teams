@@ -1,3 +1,7 @@
+body {
+    background-color: grey;
+}
+
 h1 {
     text-align: center;
     color: whitesmoke;
@@ -12,8 +16,13 @@ li {
     text-align: center;
     display: inline;
     list-style-type: none;
+    color: yellow;
     margin: 0;
     padding: 0;
+}
+
+ul {
+    background-color: darkblue;
 }
 
 p {
