@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    background-color: darkblue;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: justify;
+}
