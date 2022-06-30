@@ -1,32 +1,47 @@
 body {
+    margin: 0px;
+    padding: 0px;
     background-color: grey;
 }
 
 h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size: 70px;
     text-align: center;
     color: whitesmoke;
     background-color: darkblue;
 }
 
 h2 {
+    font-size: 40px;
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 25px;
+    font-size: 22px;
     text-align: center;
-    display: inline;
+    display: inline-block;
     list-style-type: none;
-    color: yellow;
-    margin: 0;
-    padding: 0;
+    color: rgb(255, 255, 255);
 }
 
 ul {
     background-color: darkblue;
+    text-align: center;
+    list-style-type: none;
+    font-size: larger;
 }
 
 p {
+    content: ;
+    padding: 20px;
+    margin-left: 0px;
+    background-color: darkgray;
     text-align: justify;
+    font-size: 18px;
 }
 
 footer {
@@ -34,7 +49,17 @@ footer {
 }
 
 div img {
-    align-content: stretch;
+    padding-left: 40px;
+    align-content: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div {
+
+    align-content: center;
+    display: inline-block;
+    vertical-align: top;
 }
 
 img {
