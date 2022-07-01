@@ -42,5 +42,7 @@ function numberOfBalls() {
 let userGuess = prompt("Who won the NBA Finals this year?");
 while (userGuess !== "warriors") {
     alert("Not correct!");
-    userGuess = prompt("What's my fav color?")
+    while (userGuess == "warriors") {
+        alert("Correct!");
+    }
 }
