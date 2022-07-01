@@ -1,17 +1,17 @@
 
-function askName() {
-    let name = prompt('What is your name?');
-    let message = `Hi, ${name}.`;
-    document.write(message);
-    return message;
-}
+// function askName() {
+//     let name = prompt('What is your name?');
+//     let message = `Hi, ${name}.`;
+//     document.write(message);
+//     return message;
+// }
 
-function askNumber() {
-    let number = prompt('What is your favorite number?');
-    let message = `${number} is a great number.`;
-    document.write(message);
-    return message;
-}
+// function askNumber() {
+//     let number = prompt('What is your favorite number?');
+//     let message = `${number} is a great number.`;
+//     document.write(message);
+//     return message;
+// }
 
 function askTeam() {
     let team = prompt('What is your favorite NBA team?');
@@ -39,10 +39,14 @@ function numberOfBalls() {
     return document.write(output);
 }
 
-let userGuess = prompt("Who won the NBA Finals this year?");
-while (userGuess !== "warriors") {
-    alert("Not correct!");
-    while (userGuess == "warriors") {
-        alert("Correct!");
+function nbaChamp() {
+    let usersChoice = prompt("Who won the 2022 NBA Finals?");
+
+    while (usersChoice !== "warriors") {
+        alert("Incorrect");
+        usersChoice = prompt("do you like cardio?")
+        if (usersChoice.toLowerCase() == "warriors") {
+            document.write("That's correct!");
+        }
     }
 }
