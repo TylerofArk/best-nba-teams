@@ -44,7 +44,7 @@ function nbaChamp() {
 
     while (usersChoice !== "warriors") {
         alert("Incorrect");
-        usersChoice = prompt("do you like cardio?")
+        usersChoice = prompt("Who won the 2022 NBA Finals?")
         if (usersChoice.toLowerCase() == "warriors") {
             document.write("That's correct!");
         }
