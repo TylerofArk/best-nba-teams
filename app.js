@@ -29,3 +29,12 @@ function askTeam() {
     document.write(message);
     return message;
 };
+
+function numberOfBalls() {
+    let output = '';
+    let balls = prompt('How many basketballs do you want to see?');
+    for (let i = 0; i < balls; i++) {
+        output += "<img class='balls' src='/images/solobasketball.jpg'/>";
+    }
+    return document.write(output);
+}
