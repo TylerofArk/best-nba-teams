@@ -36,7 +36,6 @@ ul {
 }
 
 p {
-    content: ;
     padding: 20px;
     margin-left: 0px;
     background-color: darkgray;
@@ -65,4 +64,12 @@ div {
 img {
     display: inline-block;
     vertical-align: top;
+}
+
+.basketBallCentered {
+
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
 }

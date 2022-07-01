@@ -34,7 +34,7 @@ function numberOfBalls() {
     let output = '';
     let balls = prompt('How many basketballs do you want to see?');
     for (let i = 0; i < balls; i++) {
-        output += "<img class='balls' src='/images/solobasketball.jpg'/>";
+        output += "<img class='balls' src='/images/solobasketball.jpg' style='width:200px'/>";
     }
     return document.write(output);
 }
