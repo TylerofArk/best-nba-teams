@@ -34,7 +34,13 @@ function numberOfBalls() {
     let output = '';
     let balls = prompt('How many basketballs do you want to see?');
     for (let i = 0; i < balls; i++) {
-        output += "<img class='balls' src='/images/solobasketball.jpg' style='width:200px'/>";
+        output += "<img class='balls' src='images/solobasketball.jpg' style='width:250px'/>";
     }
     return document.write(output);
+}
+
+let userGuess = prompt("Who won the NBA Finals this year?");
+while (userGuess !== "warriors") {
+    alert("Not correct!");
+    userGuess = prompt("What's my fav color?")
 }
